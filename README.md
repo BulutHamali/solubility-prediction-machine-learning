@@ -1,4 +1,4 @@
-# Solubility Prediction with Machine Learning 🧪
+# Solubility Prediction with Machine Learning 
 
 ## Overview
 This project predicts molecular solubility (logS) using the Delaney dataset, which contains solubility measurements and molecular descriptors. Three machine learning models were trained and evaluated:
