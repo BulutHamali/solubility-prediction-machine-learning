@@ -56,6 +56,7 @@ pip install -r requirements.txt
 
 ## Project Structure
 
+```bash
 solubility-prediction/
 ├── ML_project_for_Solubility_Prediction.ipynb
 ├── README.md
@@ -69,6 +70,7 @@ solubility-prediction/
 │   ├── xgboost_train_plot.png
 │   └── xgboost_test_plot.png
 └── requirements.txt
+```
 
 
 ## Future Improvements
