@@ -52,6 +52,8 @@ cd solubility-prediction
 # Install dependencies
 pip install -r requirements.txt
 
+```
+
 ## Project Structure
 
 solubility-prediction/
@@ -67,3 +69,13 @@ solubility-prediction/
 │   ├── xgboost_train_plot.png
 │   └── xgboost_test_plot.png
 └── requirements.txt
+
+
+## Future Improvements
+- Add cross-validation to improve model robustness  
+- Tune XGBoost hyperparameters (`max_depth`, `learning_rate`, etc.)  
+- Add an interactive dashboard or Streamlit app  
+- Explore feature importance and SHAP values for model interpretability  
+
+## Contact
+For questions or feedback, feel free to open an issue or contact me via GitHub or email hamalibulut1[at]gmail[dot]com.
