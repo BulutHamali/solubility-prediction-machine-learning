@@ -31,7 +31,14 @@ The dataset is sourced from the [Delaney solubility dataset](https://raw.githubu
 | Random Forest     | ![RF](images/random_forest_train_plot.png)         |
 | XGBoost           | ![XGB](images/xgboost_train_plot.png)              |
 
-> 💡 *Test set plots are not yet included but are recommended for completeness.*
+
+### Test Set Plots
+| Model             | Plot |
+|------------------|------|
+| Linear Regression | ![Linear Test](images/linear_regression_test_plot.png)   |
+| Random Forest     | ![RF Test](images/random_forest_test_plot.png)           |
+| XGBoost           | ![XGB Test](images/xgboost_test_plot.png)                |
+
 
 ---
 
@@ -44,3 +51,19 @@ cd solubility-prediction
 
 # Install dependencies
 pip install -r requirements.txt
+
+## Project Structure
+
+solubility-prediction/
+├── ML_project_for_Solubility_Prediction.ipynb
+├── README.md
+├── dataset/
+│   └── delaney_solubility_with_descriptors.csv
+├── images/
+│   ├── linear_regression_train_plot.png
+│   ├── linear_regression_test_plot.png
+│   ├── random_forest_train_plot.png
+│   ├── random_forest_test_plot.png
+│   ├── xgboost_train_plot.png
+│   └── xgboost_test_plot.png
+└── requirements.txt
