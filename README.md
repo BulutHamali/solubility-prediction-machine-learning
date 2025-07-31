@@ -46,7 +46,7 @@ The dataset is sourced from the [Delaney solubility dataset](https://raw.githubu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/solubility-prediction.git
+git clone https://github.com/BulutHamali/solubility-prediction-machine-learning
 cd solubility-prediction
 
 # Install dependencies
